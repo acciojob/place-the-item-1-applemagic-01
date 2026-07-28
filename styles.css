@@ -1,18 +1,13 @@
-body {
-    margin: 0;
-}
-
 .holder {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .item {
     width: 100px;
     height: 100px;
-    flex-shrink: 0;
 }
 
 .item-1 {
